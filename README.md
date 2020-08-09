@@ -1,19 +1,14 @@
-# **Twitter Bootstrap** [off.site](http://dfkgjgj.com) 
-* ПРА
-* АВА
-* АВА
+Вы можете встроить NeuroStartUp в ваши приложения с помощью следующих сниппетов (кусочков) кода.
 
-## Начало работы
-Есть несколько варианто подключения 
-1. Пакетный менеджер
-2. СДГ
-~~~html
-<Html>
-    <Html></head>
-</html>
-~~~
-### Установка через CDN
+JavaScript:
+<script src="https://localhost/neuro.sdk.min.js"></script>
 
-### Установка через NPM
-
-## Использование
+Java (Maven):
+<dependency>
+  <groupId>neuro</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.0</version>
+</dependency>
+iOS (добавьте код в ваш Podfile):
+platform :ios, '8.0'
+pod "neuro-ios-sdk"
